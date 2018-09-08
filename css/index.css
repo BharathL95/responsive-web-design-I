@@ -63,28 +63,32 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 body{
-	margin: 32px 75px;
+	margin: 28px 74px 18px 74px;
 }
 
 header {
 	display: flex;
-	/*justify-content: space-around;*/
+	justify-content: space-between;
 }
+
+.nav-item{
+	display: flex;
+	align-items: center;
+	color: gray;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox 
+OLD CSS
 
 nav{
 	display: flex;
 	justify-content: space-around;
 }
 
-.nav-item{
-	/*display: flex;*/
-	/*justify-content: space-around;*/
-}
 
 
-.nav-img{
-	display: flex;
-	/*justify-content: flex-end;*/
-}
+
+
+
